@@ -20,26 +20,13 @@ function draw() {
   // rotateY(180);
   // rotateZ(180);
   rotateY(angle);
-  // sphere(200)
+  // sphere(width)
   ellipsoid(width,300)
-  // beginShape();
-  // vertex(-100, 0, 0, 0, 0);
-  // vertex(-100, 0, 0, 1, 0);
-  // vertex(100, 100, 0, 1, 1);
-  // vertex(0, 100, 0, 0, 1);
-  // endShape(CLOSE);
   if(rotate){
     angle += 0.005;
   } else if(!rotate) {
     angle -= 0.005;
   }
-  // beginShape();
-  // vertex(100,23,-100);
-  // vertex(200,23,-50);
-  // vertex(150, 45,-100);
-  // vertex(50, 45,-100);
-  // vertex(-60, -40,-200);
-  // endShape();
 }
 
 function mouseClicked() {
